@@ -1,0 +1,31 @@
+# Fichiers de configuration sensibles
+.env
+.env.local
+.env.production
+
+# Dépendances Node.js (si vous avez du JavaScript)
+node_modules/
+
+# Dépendances Python (si vous avez du Python)
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Fichiers de l'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Volumes Docker (données qui changent constamment)
+postgres/
+pgadmin/
+mongo/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
